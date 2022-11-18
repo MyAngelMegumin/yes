@@ -314,7 +314,8 @@ $st = ""
 $star = $st.PadLeft($long, '*')
 
 Write-Host $star
-Write-Host ($lang).Author"Testing_Labs" -NoNewLine
+Write-Host ($lang).Author"" -NoNewline
+Write-Host ($lang).Author2 -ForegroundColor DarkYellow
 if (!($line)) { Write-Host $star`n }
 if ($line) {
     Write-Host ($lang).TranslationBy"" -NoNewline
